@@ -1,0 +1,46 @@
+pkgbase = jdk11-graalvm-bin
+	pkgdesc = Universal virtual machine for running applications written in a variety of languages (JVM-based, LLVM-based, or other), Java 11 version
+	pkgver = 22.0.0.2
+	pkgrel = 1
+	url = https://www.graalvm.org/
+	install = jdk11-graalvm-bin.install
+	arch = x86_64
+	arch = aarch64
+	license = custom
+	depends = java-runtime-common
+	depends = java-environment-common
+	optdepends = graal-nodejs-jdk11-bin: Node.js component (used to be bundled with this package before the 21.1.0 release)
+	provides = java-runtime=11
+	provides = java-environment=11
+	options = staticlibs
+	source = graalvm-rebuild-libpolyglot.hook
+	sha512sums = 30765efa2e1115fc6fe32dbae12994e7397a54fa572a121fa010baf5f95539ffaf39dbdea730fa137856aee591ff2d0f29f539cfd9608633408ba1687f561c1a
+	source_x86_64 = https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.0.0.2/graalvm-ce-java11-linux-amd64-22.0.0.2.tar.gz
+	sha512sums_x86_64 = b282fcd638407c5301613069216a09dedac1a5f4b17e74db16c39bc788b327493853968f5129727312602ca02778517a15335ecac5ebebfbbea0d9c316f529c3
+	source_aarch64 = https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.0.0.2/graalvm-ce-java11-linux-aarch64-22.0.0.2.tar.gz
+	sha512sums_aarch64 = d37225957defe4e11cee24cd5cabd2d9af353bb4b8f6fccf07a2a6ed06027ac6c0df18b9aeb1c7f2e1d19023673a5c6c920bec880b68f21bab0e9d82e6611873
+
+pkgname = jdk11-graalvm-bin
+pkgbase = jdk11-graalvm-bin
+	pkgdesc = Universal virtual machine for running applications written in a variety of languages (JVM-based, LLVM-based, or other), Java 11 version
+	pkgver = 22.0.0.2
+	pkgrel = 1
+	url = https://www.graalvm.org/
+	install = jdk11-graalvm-bin.install
+	arch = x86_64
+	arch = aarch64
+	license = custom
+	depends = java-runtime-common
+	depends = java-environment-common
+	optdepends = graal-nodejs-jdk11-bin: Node.js component (used to be bundled with this package before the 21.1.0 release)
+	provides = java-runtime=11
+	provides = java-environment=11
+	options = staticlibs
+	source = graalvm-rebuild-libpolyglot.hook
+	sha512sums = 30765efa2e1115fc6fe32dbae12994e7397a54fa572a121fa010baf5f95539ffaf39dbdea730fa137856aee591ff2d0f29f539cfd9608633408ba1687f561c1a
+	source_x86_64 = https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.0.0.2/graalvm-ce-java11-linux-amd64-22.0.0.2.tar.gz
+	sha512sums_x86_64 = b282fcd638407c5301613069216a09dedac1a5f4b17e74db16c39bc788b327493853968f5129727312602ca02778517a15335ecac5ebebfbbea0d9c316f529c3
+	source_aarch64 = https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.0.0.2/graalvm-ce-java11-linux-aarch64-22.0.0.2.tar.gz
+	sha512sums_aarch64 = d37225957defe4e11cee24cd5cabd2d9af353bb4b8f6fccf07a2a6ed06027ac6c0df18b9aeb1c7f2e1d19023673a5c6c920bec880b68f21bab0e9d82e6611873
+
+pkgname = jdk11-graalvm-bin
